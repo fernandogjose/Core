@@ -1,0 +1,13 @@
+src/Core.Data/bin/Debug/netstandard2.0/Core.Data.dll
+test/Core.Xunit/obj/Debug/netcoreapp2.0/Core.Xunit.pdb
+src/Core.Data/bin/Debug/netstandard2.0/Core.Data.dll
+src/Core.Data/bin/Debug/netstandard2.0/Core.Data.pdb
+src/Core.Data/obj/Debug/netstandard2.0/Core.Data.dll
+src/Core.Data/obj/Debug/netstandard2.0/Core.Data.pdb
+src/Core.Data/obj/Debug/netstandard2.0/Core.Data.csproj.CoreCompileInputs.cache
+test/Core.Xunit/bin/Debug/netcoreapp2.0/Core.Data.dll
+test/Core.Xunit/bin/Debug/netcoreapp2.0/Core.Data.pdb
+test/Core.Xunit/bin/Debug/netcoreapp2.0/Core.Xunit.dll
+test/Core.Xunit/bin/Debug/netcoreapp2.0/Core.Xunit.pdb
+test/Core.Xunit/obj/Debug/netcoreapp2.0/Core.Xunit.dll
+test/Core.Xunit/obj/Debug/netcoreapp2.0/Core.Xunit.csproj.CoreCompileInputs.cache
