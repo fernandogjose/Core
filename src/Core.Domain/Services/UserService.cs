@@ -1,5 +1,6 @@
 using Core.Domain.Interfaces.Repositories;
 using Core.Domain.Models;
+using Core.Domain.Exceptions;
 
 namespace Core.Domain.Services
 {
@@ -15,6 +16,9 @@ namespace Core.Domain.Services
         public UserModel Login(UserModel request)
         {
             var response = _userRepository.Login(request);
+
+            SecureException.IsValid(response != null, "e-mail ou senha inválido");
+
             return response;
         }
     }

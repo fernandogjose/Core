@@ -2,6 +2,7 @@ using Bogus;
 using Core.Domain.Interfaces.Repositories;
 using Core.Domain.Models;
 using Core.Domain.Services;
+using Core.Domain.Exceptions;
 using Core.Data.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
@@ -45,10 +46,9 @@ namespace Core.Xunit.Core.Domain.Services
         }
 
         [Fact]
-        public void DeveAdicionarUmUsuario()
+        public void DeveRealizarOLoginERetornarOUsuarioLogado()
         {
-            var request = new UserModel(0, _email, _password);
-
+            var request = new UserModel(0, _email, _password);            
             _userRepositoryMock
                 .Setup(r => r.Login(request))
                 .Returns(new UserModel(_faker.Random.Number(1, 1000), _email, _password));
@@ -62,6 +62,17 @@ namespace Core.Xunit.Core.Domain.Services
                 )));
 
             Assert.True(response.Id > 0);
+        }
+
+        [Fact]
+        public void DeveDarErroDeUsuarioOuSenha()
+        {
+            const string messageExpected = "e-mail ou senha inválido";
+            var request = new UserModel(0, _email, _password);
+            _userRepositoryMock.Setup(r => r.Login(request));            
+
+            var response = Assert.Throws<SecureException>(()=> _userService.Login(request));
+            Assert.Equal(response.Message, messageExpected);
         }
     }
 }

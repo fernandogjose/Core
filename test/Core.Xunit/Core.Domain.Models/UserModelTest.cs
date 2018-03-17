@@ -44,7 +44,7 @@ namespace Core.Xunit.Core.Domain.Models
         public void DeveRetornarUmDomainExceptionQuandoEmailForInvalido(string email)
         {
             const string messageExpected = "e-mail é obrigatório";
-            var ex = Assert.Throws<DomainException>(() => new UserModel(email, _password));
+            var ex = Assert.Throws<ArgumentException>(() => new UserModel(email, _password));
             Assert.Equal(ex.Message, messageExpected);
         }
 
@@ -53,8 +53,8 @@ namespace Core.Xunit.Core.Domain.Models
         [InlineData(null)]
         public void DeveRetornarUmDomainExceptionQuandoPasswordForInvalido(string password)
         {
-            const string messageExpected = "password é obrigatório";
-            var ex = Assert.Throws<DomainException>(() => new UserModel(_email, password));
+            const string messageExpected = "senha é obrigatório";
+            var ex = Assert.Throws<ArgumentException>(() => new UserModel(_email, password));
             Assert.Equal(ex.Message, messageExpected);
         }
     }

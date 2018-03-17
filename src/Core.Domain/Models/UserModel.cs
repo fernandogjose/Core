@@ -1,3 +1,4 @@
+using System;
 using Core.Domain.Exceptions;
 
 namespace Core.Domain.Models
@@ -26,8 +27,11 @@ namespace Core.Domain.Models
 
         private static void ValidateValues(string email, string password)
         {
-            DomainException.Set(!string.IsNullOrEmpty(email), "e-mail é obrigatório");
-            DomainException.Set(!string.IsNullOrEmpty(password), "password é obrigatório");
+            if (string.IsNullOrEmpty(email))
+                throw new ArgumentException("e-mail é obrigatório");
+
+            if (string.IsNullOrEmpty(password))
+                throw new ArgumentException("senha é obrigatório");
         }
 
         private void SetValues(int id, string email, string password)
