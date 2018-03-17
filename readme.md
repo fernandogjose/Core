@@ -28,3 +28,15 @@
 
 * front em angular 5
 * gulp para automatização de tarefas
+
+### Extensões úteis para vs code ###
+
+* C# for visual studio code
+* C# Extensions
+* C# FixFormat
+* C# Snippers
+* .Net Core Test Explorer
+* Asp.Net Core Snippers
+* Darcula Theme
+* Visual Studio Keymap
+
