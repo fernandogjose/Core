@@ -12,3 +12,17 @@ C:\Meus Projetos\Core\src\Core.DI\bin\Debug\netstandard2.0\Core.Domain.dll
 C:\Meus Projetos\Core\src\Core.DI\bin\Debug\netstandard2.0\Core.Data.pdb
 C:\Meus Projetos\Core\src\Core.DI\bin\Debug\netstandard2.0\Core.Domain.pdb
 C:\Meus Projetos\Core\src\Core.DI\obj\Debug\netstandard2.0\Core.DI.csproj.CopyComplete
+C:\Projetos\FabricaFgj\core\src\Core.DI\bin\Debug\netstandard2.0\Core.DI.deps.json
+C:\Projetos\FabricaFgj\core\src\Core.DI\bin\Debug\netstandard2.0\Core.DI.dll
+C:\Projetos\FabricaFgj\core\src\Core.DI\bin\Debug\netstandard2.0\Core.DI.pdb
+C:\Projetos\FabricaFgj\core\src\Core.DI\bin\Debug\netstandard2.0\Core.Data.dll
+C:\Projetos\FabricaFgj\core\src\Core.DI\bin\Debug\netstandard2.0\Core.Domain.dll
+C:\Projetos\FabricaFgj\core\src\Core.DI\bin\Debug\netstandard2.0\Core.Data.pdb
+C:\Projetos\FabricaFgj\core\src\Core.DI\bin\Debug\netstandard2.0\Core.Domain.pdb
+C:\Projetos\FabricaFgj\core\src\Core.DI\obj\Debug\netstandard2.0\Core.DI.csprojResolveAssemblyReference.cache
+C:\Projetos\FabricaFgj\core\src\Core.DI\obj\Debug\netstandard2.0\Core.DI.csproj.CoreCompileInputs.cache
+C:\Projetos\FabricaFgj\core\src\Core.DI\obj\Debug\netstandard2.0\Core.DI.AssemblyInfoInputs.cache
+C:\Projetos\FabricaFgj\core\src\Core.DI\obj\Debug\netstandard2.0\Core.DI.AssemblyInfo.cs
+C:\Projetos\FabricaFgj\core\src\Core.DI\obj\Debug\netstandard2.0\Core.DI.csproj.CopyComplete
+C:\Projetos\FabricaFgj\core\src\Core.DI\obj\Debug\netstandard2.0\Core.DI.dll
+C:\Projetos\FabricaFgj\core\src\Core.DI\obj\Debug\netstandard2.0\Core.DI.pdb

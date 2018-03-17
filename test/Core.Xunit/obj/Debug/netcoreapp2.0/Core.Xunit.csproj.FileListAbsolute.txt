@@ -17,3 +17,22 @@ C:\Meus Projetos\Core\test\Core.Xunit\obj\Debug\netcoreapp2.0\Core.Xunit.pdb
 C:\Meus Projetos\Core\test\Core.Xunit\obj\Debug\netcoreapp2.0\Core.Xunit.csprojResolveAssemblyReference.cache
 C:\Meus Projetos\Core\test\Core.Xunit\bin\Debug\netcoreapp2.0\Core.Data.dll
 C:\Meus Projetos\Core\test\Core.Xunit\bin\Debug\netcoreapp2.0\Core.Data.pdb
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\bin\Debug\netcoreapp2.0\Core.Xunit.deps.json
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\bin\Debug\netcoreapp2.0\Core.Xunit.runtimeconfig.json
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\bin\Debug\netcoreapp2.0\Core.Xunit.runtimeconfig.dev.json
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\bin\Debug\netcoreapp2.0\Core.Xunit.dll
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\bin\Debug\netcoreapp2.0\Core.Xunit.pdb
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\bin\Debug\netcoreapp2.0\Core.Data.dll
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\bin\Debug\netcoreapp2.0\Core.Domain.dll
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\bin\Debug\netcoreapp2.0\Core.Domain.pdb
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\bin\Debug\netcoreapp2.0\Core.Data.pdb
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\obj\Debug\netcoreapp2.0\Core.Xunit.csprojResolveAssemblyReference.cache
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\obj\Debug\netcoreapp2.0\Core.Xunit.csproj.CoreCompileInputs.cache
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\obj\Debug\netcoreapp2.0\Core.Xunit.AssemblyInfoInputs.cache
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\obj\Debug\netcoreapp2.0\Core.Xunit.AssemblyInfo.cs
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\obj\Debug\netcoreapp2.0\Core.Xunit.csproj.CopyComplete
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\obj\Debug\netcoreapp2.0\Core.Xunit.dll
+C:\Projetos\FabricaFgj\core\test\Core.Xunit\obj\Debug\netcoreapp2.0\Core.Xunit.pdb

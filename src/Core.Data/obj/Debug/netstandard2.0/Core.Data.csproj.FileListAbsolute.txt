@@ -10,3 +10,15 @@ C:\Meus Projetos\Core\src\Core.Data\obj\Debug\netstandard2.0\Core.Data.csproj.Co
 C:\Meus Projetos\Core\src\Core.Data\obj\Debug\netstandard2.0\Core.Data.dll
 C:\Meus Projetos\Core\src\Core.Data\obj\Debug\netstandard2.0\Core.Data.pdb
 c:\Meus Projetos\Core\src\Core.Data\obj\Debug\netstandard2.0\Core.Data.csprojResolveAssemblyReference.cache
+C:\Projetos\FabricaFgj\core\src\Core.Data\bin\Debug\netstandard2.0\Core.Data.deps.json
+C:\Projetos\FabricaFgj\core\src\Core.Data\bin\Debug\netstandard2.0\Core.Data.dll
+C:\Projetos\FabricaFgj\core\src\Core.Data\bin\Debug\netstandard2.0\Core.Data.pdb
+C:\Projetos\FabricaFgj\core\src\Core.Data\bin\Debug\netstandard2.0\Core.Domain.dll
+C:\Projetos\FabricaFgj\core\src\Core.Data\bin\Debug\netstandard2.0\Core.Domain.pdb
+C:\Projetos\FabricaFgj\core\src\Core.Data\obj\Debug\netstandard2.0\Core.Data.csprojResolveAssemblyReference.cache
+C:\Projetos\FabricaFgj\core\src\Core.Data\obj\Debug\netstandard2.0\Core.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\FabricaFgj\core\src\Core.Data\obj\Debug\netstandard2.0\Core.Data.AssemblyInfoInputs.cache
+C:\Projetos\FabricaFgj\core\src\Core.Data\obj\Debug\netstandard2.0\Core.Data.AssemblyInfo.cs
+C:\Projetos\FabricaFgj\core\src\Core.Data\obj\Debug\netstandard2.0\Core.Data.csproj.CopyComplete
+C:\Projetos\FabricaFgj\core\src\Core.Data\obj\Debug\netstandard2.0\Core.Data.dll
+C:\Projetos\FabricaFgj\core\src\Core.Data\obj\Debug\netstandard2.0\Core.Data.pdb
