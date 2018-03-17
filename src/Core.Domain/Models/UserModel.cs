@@ -10,6 +10,8 @@ namespace Core.Domain.Models
 
         public string Password { get; private set; }
 
+        public string Name { get; set; }
+
         public UserModel(int id, string email, string password)
         {
             ValidateValues(email, password);
