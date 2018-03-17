@@ -1,24 +1,30 @@
 # README #
 
-:: WebApi em dotnet core 
-:: Desenvolvimento em TDD
-:: Arquitetura DDD
+* WebApi em dotnet core 
+* Desenvolvimento em TDD
+* Arquitetura DDD
 
-### What is this repository for? ###
+### Versão ###
 
-* dotnet core - TDD - DDD
 * Version 1.0
 
-### How do I get set up? ###
+### Como configurar ###
 
-* git clone 
+* git clone https://fernandojose739@bitbucket.org/fernandojose739/core.git
 * abrir o projeto no visual studio code
+* Abrir o Terminal do VS Code e deixar na raiz do projeto
 * dotnet restore
 * dotnet build
 
-### Contribution guidelines ###
+### Tecnologias utilizadas ###
 
+* dotnet core
 * Testes em xunit
 * Bogus para a criação de conteúdo
 * Mock para o repository
 * Injeção de Dependência
+
+### Ainda esta por vim ###
+
+* front em angular 5
+* gulp para automatização de tarefas
