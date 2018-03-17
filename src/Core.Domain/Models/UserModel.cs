@@ -12,6 +12,8 @@ namespace Core.Domain.Models
 
         public string Name { get; set; }
 
+        public int MyProperty { get; set; }
+
         public UserModel(int id, string email, string password)
         {
             ValidateValues(email, password);
