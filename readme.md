@@ -24,7 +24,7 @@
 * Mock para o repository
 * Injeção de Dependência
 
-### Ainda esta por vim ###
+### Ainda esta por vir ###
 
 * front em angular 5
 * gulp para automatização de tarefas
