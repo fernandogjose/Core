@@ -66,7 +66,7 @@ namespace Core.Xunit.Core.Domain.Services {
             var request = new UserModel (0, _email, _password);
             _userRepositoryMock.Setup (r => r.Login (request));
 
-            var response = Assert.Throws<SecureException> (() => _userService.Login (request));
+            var response = Assert.Throws<AuthException> (() => _userService.Login (request));
             Assert.Equal (response.Message, messageExpected);
         }
     }

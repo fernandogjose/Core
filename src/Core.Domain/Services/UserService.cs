@@ -13,7 +13,7 @@ namespace Core.Domain.Services {
         public UserModel Login (UserModel request) {
             var response = _userRepository.Login (request);
 
-            SecureException.IsValid (response != null, "e-mail ou senha inválido");
+            AuthException.IsValid (response != null && response.Id > 0, "e-mail ou senha inválido");
 
             return response;
         }

@@ -2,9 +2,9 @@ using System;
 
 namespace Core.Domain.Exceptions
 {
-    public class SecureException : Exception
+    public class AuthException : Exception
     {
-        public SecureException(string message)
+        public AuthException(string message)
             : base(message)
         {
 
@@ -14,7 +14,7 @@ namespace Core.Domain.Exceptions
         {
             if (!isValid)
             {
-                throw new SecureException(message);
+                throw new AuthException(message);
             }
         }
     }
