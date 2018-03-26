@@ -1,8 +1,8 @@
-import { UserService } from './../../services/user.service';
-import { SharedService } from './../../services/shared.service';
 import { Component, OnInit } from '@angular/core';
-import { User } from '../../models/user.model';
 import { Router } from '@angular/router';
+import { User } from '../../../models/user.model';
+import { SharedService } from '../../../services/shared.service';
+import { UserService } from '../../../services/user.service';
 
 @Component({
   selector: 'app-login',
@@ -38,6 +38,14 @@ export class LoginComponent implements OnInit {
         this.message = 'Erro';
         this.shared.showTemplate.emit(false);
       });
+  }
+
+  getFromGroupClass(isInvalid: boolean, isDirty): {} {
+    return {
+      'form-group': true,
+      'has-error': isInvalid && isDirty,
+      'has-success': !isInvalid && isDirty
+    }
   }
 
 }
