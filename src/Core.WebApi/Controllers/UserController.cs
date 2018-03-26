@@ -16,7 +16,7 @@ namespace Core.WebApi.Controllers {
             _userService = userService;
         }
 
-        [HttpPost ("login/{email}/{password}")]
+        [HttpGet ("login/{email}/{password}")]
         public UserModel Get (string email, string password) {
             var request = new UserModel (email, password);
             var response = _userService.Login (request);

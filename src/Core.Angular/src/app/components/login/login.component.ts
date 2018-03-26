@@ -3,7 +3,6 @@ import { SharedService } from './../../services/shared.service';
 import { Component, OnInit } from '@angular/core';
 import { User } from '../../models/user.model';
 import { Router } from '@angular/router';
-import { CurrentUser } from '../../models/current-user.model';
 
 @Component({
   selector: 'app-login',
@@ -12,7 +11,7 @@ import { CurrentUser } from '../../models/current-user.model';
 })
 export class LoginComponent implements OnInit {
 
-  user = new User('', '', '');
+  user = new User('', '', '', '');
   shared: SharedService;
   message: string;
 
@@ -30,13 +29,11 @@ export class LoginComponent implements OnInit {
     this.message = '';
     this.userService
       .login(this.user)
-      .subscribe((userAuthentication: CurrentUser) => {
-        this.shared.token = userAuthentication.token;
-        this.shared.user = userAuthentication.user;
+      .subscribe((userAuthentication: User) => {
+        this.shared.user = userAuthentication;
         this.shared.showTemplate.emit(true)
         this.router.navigate(['/']);
       }, err => {
-        this.shared.token = null;
         this.shared.user = null;
         this.message = 'Erro';
         this.shared.showTemplate.emit(false);

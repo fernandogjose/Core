@@ -12,7 +12,8 @@ namespace Core.Data.Repositories
 
         public UserModel Login(UserModel request)
         {
-            var response = new UserModel(0, "fernando.jose@viavarejo.com.br", "123456");
+            var response = new UserModel();
+            response.SetAuthUser(1, "fernando.jose@viavarejo.com.br", "Fernando José", "esteéomeutoken");
             return response;
         }
     }

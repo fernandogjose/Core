@@ -24,6 +24,7 @@ namespace Core.WebApi
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             Bootstrap.Configure(services);
             services.AddMvc();
         }
@@ -36,6 +37,11 @@ namespace Core.WebApi
             }
 
             app.UseMiddleware(typeof(ErrorMiddleware));
+
+            app.UseCors(
+                options => options.WithOrigins("http://localhost:4200").AllowAnyMethod()
+            );
+
             app.UseMvc();
         }
     }

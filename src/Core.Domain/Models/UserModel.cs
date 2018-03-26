@@ -11,7 +11,19 @@ namespace Core.Domain.Models
 
         public string Password { get; private set; }
 
-        public string Name { get; set; }
+        public string Name { get; private set; }
+
+        public string Token { get; private set; }
+
+        public void SetAuthUser(int id, string email, string name, string token)
+        {
+            Id = id;
+            Email = email;
+            Name = name;
+            Token = token;
+        }
+
+        public UserModel() { }
 
         public UserModel(int id, string email, string password)
         {
