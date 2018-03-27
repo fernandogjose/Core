@@ -10,7 +10,7 @@
 
 ### Como configurar ###
 
-* git clone https://fernandojose739@bitbucket.org/fernandojose739/core.git
+* git clone https://github.com/fernandogjose/Core.git
 * abrir o projeto no visual studio code
 * Abrir o Terminal do VS Code e deixar na raiz do projeto
 * dotnet restore
