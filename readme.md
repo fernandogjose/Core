@@ -23,10 +23,10 @@
 * Bogus para a criação de conteúdo
 * Mock para o repository
 * Injeção de Dependência
+* front em angular 5
 
 ### Ainda esta por vir ###
 
-* front em angular 5
 * gulp para automatização de tarefas
 
 ### Extensões úteis para vs code ###
