@@ -73,7 +73,7 @@ namespace Core.Xunit.Core.Domain.Services
             var request = new UserModel
             {
                 Email = _email,
-                Password = password
+                Password = _email
             };
 
             var ex = Assert.Throws<ArgumentException>(() => _userService.Login(request));
