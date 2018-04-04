@@ -2,6 +2,7 @@
 using Core.Data.Repositories;
 using Core.Domain.Interfaces.Repositories;
 using Core.Domain.Services;
+using Core.Domain.Validations;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Core.DI
@@ -11,7 +12,8 @@ namespace Core.DI
         public static void Configure(IServiceCollection services)
         {
             services.AddSingleton<IUserRepository, UserRepository>();
-            services.AddSingleton<UserService, UserService>();            
+            services.AddSingleton<UserValidation>();
+            services.AddSingleton<UserService>();
         }
     }
 }

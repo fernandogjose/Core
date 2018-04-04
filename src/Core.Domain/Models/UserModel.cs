@@ -5,52 +5,14 @@ namespace Core.Domain.Models
 {
     public class UserModel
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
 
-        public string Email { get; private set; }
+        public string Email { get; set; }
 
-        public string Password { get; private set; }
+        public string Password { get; set; }
 
-        public string Name { get; private set; }
+        public string Name { get; set; }
 
-        public string Token { get; private set; }
-
-        public void SetAuthUser(int id, string email, string name, string token)
-        {
-            Id = id;
-            Email = email;
-            Name = name;
-            Token = token;
-        }
-
-        public UserModel() { }
-
-        public UserModel(int id, string email, string password)
-        {
-            ValidateValues(email, password);
-            SetValues(id, email, password);
-        }
-
-        public UserModel(string email, string password)
-        {
-            ValidateValues(email, password);
-            SetValues(0, email, password);
-        }
-
-        private static void ValidateValues(string email, string password)
-        {
-            if (string.IsNullOrEmpty(email))
-                throw new ArgumentException("e-mail é obrigatório");
-
-            if (string.IsNullOrEmpty(password))
-                throw new ArgumentException("senha é obrigatório");
-        }
-
-        private void SetValues(int id, string email, string password)
-        {
-            Id = id;
-            Email = email;
-            Password = password;
-        }
+        public string Token { get; set; }
     }
 }
