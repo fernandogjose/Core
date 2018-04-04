@@ -20,8 +20,6 @@ namespace Core.Domain.Services {
             _userValidation.ValidateEmail(request.Email);
             _userValidation.ValidatePassword(request.Password);
 
-            request.Email = "veigamoreira@gmail.com";
-
             var response = _userRepository.Login (request);
 
             AuthException.IsValid (response != null && response.Id > 0, "e-mail ou senha inválido");
