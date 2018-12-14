@@ -39,4 +39,8 @@
 * Asp.Net Core Snippers
 * Darcula Theme
 * Visual Studio Keymap
+* .net core test explorer 
+* Angular 7 snippets
+* ESLint
+* TSLint
 
