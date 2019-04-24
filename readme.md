@@ -43,4 +43,5 @@
 * Angular 7 snippets
 * ESLint
 * TSLint
+* Git History - Don Jayamanne
 
