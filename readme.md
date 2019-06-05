@@ -45,3 +45,5 @@
 * TSLint
 * Git History - Don Jayamanne
 
+### Comandos Git
+git config --global --edit
