@@ -46,4 +46,5 @@
 * Git History - Don Jayamanne
 
 ### Comandos Git
+git config --global --list
 git config --global --edit
