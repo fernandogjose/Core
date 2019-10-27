@@ -28,6 +28,8 @@ namespace Core.WebApi.Controllers
                 Password = password
             };
             
+            var teste = "meu teste";
+            
             var response = _userService.Login(request);
             return response;
         }
