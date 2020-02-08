@@ -39,12 +39,11 @@
 * Asp.Net Core Snippers
 * Darcula Theme
 * Visual Studio Keymap
-* .net core test explorer 
-* Angular 7 snippets
+* Angular 8 snippets
 * ESLint
 * TSLint
 * Git History - Don Jayamanne
 
 ### Comandos Git
-git config --global --list
-git config --global --edit
+* git config --global --list
+* git config --global --edit
